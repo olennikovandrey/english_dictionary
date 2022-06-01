@@ -1,0 +1,76 @@
+body {
+  position: relative;
+  padding-top: 3rem;
+  width: 100vw;
+  height: 100vh;
+}
+
+body::before {
+  position: fixed;
+  top: 0;
+  content: " ";
+  width: inherit;
+  height: inherit;
+  background-image: url("../../assets/images/English_dict_2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 0 0;
+  filter: brightness(55%) blur(3px) saturate(80%);
+  z-index: -5;
+}
+
+h1 {
+  font-size: max(1em, min(3em, 5vw));
+  text-align: center;
+  font-weight: 700;
+  color: white;
+}
+
+.general-wrapper {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0.5rem;
+  display: flex;
+  z-index: 1;
+  flex-direction: column;
+  justify-content: center;
+}
+
+form {
+  margin: 1rem 0;
+  display: flex;
+}
+
+.input-group {
+  width: 80%;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  font-size: calc(0.7vw + 1rem * 0.6);
+  padding-right: 0;
+}
+
+.btn {
+  width: 20%;
+  font-size: calc(0.7vw + 1rem * 0.6);
+  padding: 3px;
+}
+
+button > a {
+  text-decoration: none;
+}
+
+button > a:hover {
+  color: #fff;
+}
+
+button > div {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 425px) {
+  .btn {
+    width: 30%;
+  }
+}

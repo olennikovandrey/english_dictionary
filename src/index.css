@@ -1,0 +1,41 @@
+body,
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  font-style: normal;
+}
+
+html {
+  width: 100vw;
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+}
+
+img {
+  display: block;
+  object-fit: scale-down;
+}
+
+input,
+button,
+select  {
+  font: inherit;
+}
+
+a {
+  color: inherit;
+}
+
+#root {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 2vw;
+}
+
+p,
+span {
+  font-size: calc(0.6vw + 1rem * 0.4);
+}

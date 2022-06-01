@@ -1,0 +1,26 @@
+.not-found-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1em;
+}
+
+.not-found-wrapper span:nth-child(1) {
+  color: #fc2828;
+  font-size: calc(50px + 2vw);
+  font-weight: 700;
+  padding-bottom: 0.5rem;
+}
+
+.error-message {
+  font-size: max(1em, min(3em, 5vw));
+  color: #fff;
+  padding-bottom: 30px;
+}
+
+.go-back-link {
+  color: #282cfc;
+  font-size: min(2em, min(3em, 5vw));
+  padding-bottom: 30px;
+  text-decoration: underline;
+  cursor: pointer;
+}
