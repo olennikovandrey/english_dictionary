@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { fetchData } from "../../store/action-creators/wordData";
 import { IDispatch } from "../../interfaces/interfaces";
 import React, { ChangeEvent, KeyboardEvent, useState, useRef, useEffect } from "react";

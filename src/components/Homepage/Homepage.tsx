@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { useTypedSelector } from "../../hooks/useTypedSelector";
 import { PageNotFound } from "../PageNotFound/PageNotFound";
 import ResultPage from "../ResultPage/ResultPage";
