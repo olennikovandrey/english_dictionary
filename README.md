@@ -1,7 +1,7 @@
 # English dictionary.
 
-Source - https://dictionaryapi.dev/.\
-Technologies: React, Redux, Redux thunk, TypeScript, react router, css
+Source - https://dictionaryapi.dev/. \
+Technologies: React, Redux, Redux thunk, TypeScript, react router, css.
 
 ![Image alt](https://github.com/olennikovandrey/satellite-test/raw/main/src/assets/images/demo.gif)
 
